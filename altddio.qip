@@ -1,0 +1,10 @@
+set_global_assignment -name IP_TOOL_NAME "ALTDDIO_IN"
+set_global_assignment -name IP_TOOL_VERSION "20.1"
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "{Cyclone IV E}"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "altddio.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "altddio.ppf"]

@@ -1,2 +1,3 @@
 # M3ToVGA
-TRS-80 Model 3 VGA Adapter firmware repo
+
+This is the M3 version of the M4ToVGA/M2ToVGA project.  See the M4 repo for details.
